@@ -16,10 +16,7 @@
   yum:
     name: ['java', 'python3']
     state: present
-  # with_items:
-  #   - java
-  #   - python
-
+  
 - name: Create .ssh directory
   file:
     path: /home/jenkins/.ssh
